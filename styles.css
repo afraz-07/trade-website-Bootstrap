@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#logo img{
+    height: 40px;
+    width: 80px;
+    margin-left: 1rem;
+}
+
+.navigationbar .navbar{
+   background-color: rgb(83, 83, 83);
+   height: 80px ;
+}
+
+.navigationbar .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+    background-color: rgb(83, 83, 83);
+}
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content:end;
+    padding-right: 1rem;
+}
+
+
+.navigationbar .navbar-light .navbar-nav .nav-link{
+    color: white    ;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: small;
+}
+
+.navigationbar .navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+}
+
+
+.navigationbar .navbar-light .navbar-toggler{
+    color: white;
+    z-index: 9999  ;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+
+.navigationbar .navbar-nav .dropdown-menu{
+    background-color: rgb(83, 83, 83);
+    color: white;
+}
+
+.navigationbar .dropdown-item{
+        color: white;
+}
